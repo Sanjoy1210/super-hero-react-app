@@ -1,5 +1,11 @@
 .community-container {
     background-color: #0f0e17;
+    padding: 30px 10px 0;
+}
+
+.community-intro {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .our-contributors {
@@ -15,11 +21,11 @@
 }
 
 .committee {
-    width: 17%;
+    width: 18%;
     padding: 10px;
     background-color: #222;
     text-align: center;
-    position: fixed;
+    position: absolute;
     right: 20px;
     border-radius: 10px;
 }

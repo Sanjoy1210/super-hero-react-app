@@ -18,7 +18,10 @@ const Contributor = (props) => {
                 <p>Company: {company}</p>
             </div>
             <div className="contributor-footer">
-                <button className="add-btn">Add to Committee</button>
+                <button 
+                    className="add-btn" 
+                    onClick={() => props.handleAddToCommittee(props.contributor)}
+                ><i className="fas fa-cart-arrow-down"></i> Add to Committee</button>
             </div>
         </div>
     );
