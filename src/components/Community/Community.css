@@ -1,0 +1,25 @@
+.community-container {
+    background-color: #0f0e17;
+}
+
+.our-contributors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contributors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 80%;
+}
+
+.committee {
+    width: 17%;
+    padding: 10px;
+    background-color: #222;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    border-radius: 10px;
+}

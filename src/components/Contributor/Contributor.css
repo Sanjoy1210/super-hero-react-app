@@ -1,0 +1,45 @@
+.contributor {
+    background-color: #242629;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 0.5s linear;
+}
+
+.contributor:hover {
+    border: 1px solid #ff8906;
+}
+
+.contributor-img {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contributor-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contributor-details {
+    padding: 10px;
+}
+
+.contributor-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.add-btn {
+    background-color: #ff8906;
+    color: #fffffe;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px 12px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+}

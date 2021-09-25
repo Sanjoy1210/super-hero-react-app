@@ -1,0 +1,138 @@
+[
+    {
+      "name": "Jhankar Mahbub",
+      "age": 32,
+      "img": "https://avatars.githubusercontent.com/u/33915032?v=4",
+      "profession": "writer, youtuber",
+      "contributions": 155,
+      "company": "Programming Hero"
+    },
+    {
+      "name": "Tamim Shahariar",
+      "age": 33,
+      "img": "https://dimikcomputing.com/wp-content/uploads/2016/04/subeen-440x400.jpg",
+      "profession": "writer, youtuber",
+      "contributions": 312,
+      "company": "Grab"
+    },
+    {
+      "name": "Anisul Islam",
+      "age": 34,
+      "img": "https://avatars.githubusercontent.com/u/28184926?v=4",
+      "profession": "youtuber, lecturer",
+      "contributions": 1625,
+      "company": "YouTube"
+    },
+    {
+      "name": "Zulkarnine Mahmud",
+      "age": 30,
+      "img": "https://avatars.githubusercontent.com/u/6968100?v=4",
+      "profession": "software engineer, youtuber",
+      "contributions": 24,
+      "company": "Google"
+    },
+    {
+      "name": "Sumit Saha",
+      "age": 33,
+      "img": "https://pbs.twimg.com/profile_images/874172653405327360/QyysiBs5_400x400.jpg",
+      "profession": "js developer, youtuber",
+      "contributions": 261,
+      "company": "Analyzen"
+    },
+    {
+      "name": "HM Nayeem",
+      "age": 26,
+      "img": "https://ds.rokomari.store/rokomari110/people/d0ed92ff2_80898.jpg",
+      "profession": "web developer, youtuber",
+      "contributions": 1190,
+      "company": "Stack Learner"
+    },
+    {
+      "name": "Saidur Rahman Setu",
+      "age": 25,
+      "img": "https://avatars.githubusercontent.com/u/34616507?v=4",
+      "profession": "youtuber, instructor",
+      "contributions": 133,
+      "company": "js bangladesh"
+    },
+    {
+      "name": "Rabbil Hasan",
+      "age": 28,
+      "img": "https://yt3.ggpht.com/ytc/AKedOLRNgeV2pOHHLhb-uNlo95HH3yF3U_htLbT8_iWr=s900-c-k-c0x00ffffff-no-rj",
+      "profession": "youtuber, software developer",
+      "contributions": 660,
+      "company": "CBA IT"
+    },
+    {
+      "name": "Tahmid Rafi",
+      "age": 30,
+      "img": "https://avatars.githubusercontent.com/u/4125245?v=4",
+      "profession": "writer, youtuber, lecturer",
+      "contributions": 312,
+      "company": "Brac University"
+    },
+    {
+      "name": "A N M Bozlur Rahman",
+      "age": 33,
+      "img": "https://avatars.githubusercontent.com/u/429073?v=4",
+      "profession": "writer, java developer, youtuber",
+      "contributions": 65,
+      "company": "JUGBD"
+    },
+    {
+      "name": "Hasa Abdullah",
+      "age": 34,
+      "img": "https://avatars.githubusercontent.com/u/3769029?v=4",
+      "profession": "writer, software engineer",
+      "contributions": 145,
+      "company": "Brain station"
+    },
+    {
+      "name": "Zaheed Sobur",
+      "age": 35,
+      "img": "https://miro.medium.com/max/1400/1*a3E5wQwXpgqSvhE85DWRzg.jpeg",
+      "profession": "software enginner, youtuber",
+      "contributions": 60,
+      "company": "Google"
+    },
+    {
+      "name": "Rayhan Hossain",
+      "age": 27,
+      "img": "https://avatars.githubusercontent.com/u/5003238?v=4",
+      "profession": "writer, software developer",
+      "contributions": 170,
+      "company": "Amazon"
+    },
+    {
+      "name": "Shafayet Ashraf",
+      "age": 29,
+      "img": "https://avatars.githubusercontent.com/u/2140379?v=4",
+      "profession": "writer, software developer",
+      "contributions": 70,
+      "company": "Grab"
+    },
+    {
+      "name": "Zonayed Ahmed",
+      "age": 26,
+      "img": "https://avatars.githubusercontent.com/u/18544717?v=4",
+      "profession": "writer, front end developer",
+      "contributions": 50,
+      "company": "Incsub"
+    },
+    {
+      "name": "Ali Hasan",
+      "age": 30,
+      "img": "https://ibb.co/thBzxCC",
+      "profession": "lightOj, software engineer",
+      "contributions": 34,
+      "company": "Google"
+    },
+    {
+      "name": "Mahbubul Hasan",
+      "age": 34,
+      "img": "https://ibb.co/DtzfTW1",
+      "profession": "lightOj, software engineer",
+      "contributions": 34,
+      "company": "Google"
+    }
+  ]
