@@ -46,9 +46,11 @@ const Community = () => {
                         }
                     </div>
                     <div className="committee">
-                        <h3>Our Committee</h3>
-                        <h4><i className="fas fa-user"></i> Members Added: {cart.length}</h4>
-                        <h4>Contributions: {countTotal(cart)}</h4>
+                        <div className="committee-intro">
+                            <h3>Our Committee</h3>
+                            <h4><i className="fas fa-user"></i> Members Added: {cart.length}</h4>
+                            <h4>Contributions: {countTotal(cart)}</h4>
+                        </div>
                         {
                             cart.map(contributor => <Cart 
                                 key={contributor.id}
