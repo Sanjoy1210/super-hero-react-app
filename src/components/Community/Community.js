@@ -32,6 +32,7 @@ const Community = () => {
             <div className="community-container">
                 <div className="community-intro">
                     <h1>Our Programming Community</h1>
+                    <p> We are very fortunate to have a community where there are plenty of resources for learning. And we are eternally grateful to those for whom we received it. May the Bengali community be more prosperous.</p>
                     <h2>Total Contribution: {countTotal(contributors)}</h2>
                 </div>
                 <div className="our-contributors">
@@ -49,7 +50,10 @@ const Community = () => {
                         <h4><i className="fas fa-user"></i> Members Added: {cart.length}</h4>
                         <h4>Contributions: {countTotal(cart)}</h4>
                         {
-                            cart.map(contributor => <Cart contributor={contributor}></Cart>)
+                            cart.map(contributor => <Cart 
+                                key={contributor.id}
+                                contributor={contributor}
+                            ></Cart>)
                         }
                     </div>
                 </div>

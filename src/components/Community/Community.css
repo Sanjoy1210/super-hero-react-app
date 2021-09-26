@@ -8,6 +8,13 @@
     padding-bottom: 20px;
 }
 
+.community-intro p {
+    line-height: 30px;
+    font-size: 18px;
+    width: 60%;
+    margin: 5px auto;
+}
+
 .our-contributors {
     display: flex;
     justify-content: space-between;
