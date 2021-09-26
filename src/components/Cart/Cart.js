@@ -11,7 +11,7 @@ const Cart = (props) => {
                 <img src={img} alt={name} />
             </div>
             <div className="cart-title">
-                <h4>{name}</h4>
+                <h4>{name} <i className="fas fa-check-circle"></i></h4>
             </div>
         </div>
     );
