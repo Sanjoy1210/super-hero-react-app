@@ -3,6 +3,9 @@
     border-radius: 10px;
     border: 1px solid transparent;
     transition: all 0.5s linear;
+    line-height: 28px;
+    position: relative;
+    min-height: 480px;
 }
 
 .contributor:hover {
@@ -42,4 +45,12 @@
     border-radius: 8px;
     margin: 10px 0;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.3s linear;
+}
+
+.add-btn:hover {
+    background-color: #242629;
+    border: 1px solid #ff8906;
 }

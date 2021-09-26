@@ -46,8 +46,8 @@ const Community = () => {
                     </div>
                     <div className="committee">
                         <h3>Our Committee</h3>
-                        <h4>Members Added: {cart.length}</h4>
-                        <h4>Members Contributions: {countTotal(cart)}</h4>
+                        <h4><i className="fas fa-user"></i> Members Added: {cart.length}</h4>
+                        <h4>Contributions: {countTotal(cart)}</h4>
                         {
                             cart.map(contributor => <Cart contributor={contributor}></Cart>)
                         }

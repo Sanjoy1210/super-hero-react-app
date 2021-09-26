@@ -3,7 +3,7 @@ import './Contributor.css'
 
 const Contributor = (props) => {
 
-    const {name, age, profession, img, contributions, company} = props.contributor;
+    const {name, age, profession, img, contributions, company, address} = props.contributor;
 
     return (
         <div className="contributor">
@@ -16,6 +16,7 @@ const Contributor = (props) => {
                 <p>Role: {profession}</p>
                 <p>Contributions: {contributions}</p>
                 <p>Company: {company}</p>
+                <p>Address: {address}</p>
             </div>
             <div className="contributor-footer">
                 <button 
