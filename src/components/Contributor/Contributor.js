@@ -3,9 +3,11 @@ import './Contributor.css'
 
 const Contributor = (props) => {
 
-    const {name, age, profession, img, contributions, company, address} = props.contributor;
+    const {name, age, profession, img, contributions, company, address, source} = props.contributor;
 
     return (
+
+        // single contributor
         <div className="contributor">
             <div className="contributor-img">
                 <img src={img} alt={name} />
@@ -23,6 +25,11 @@ const Contributor = (props) => {
                     className="add-btn" 
                     onClick={() => props.handleAddToCommittee(props.contributor)}
                 ><i className="fas fa-cart-arrow-down"></i> Add to Committee</button>
+
+                <div className="links">
+                    <a href={source.facebook}><i className="fab fa-facebook"></i></a>
+                    <a href={source.youtube}><i className="fab fa-youtube"></i></a>
+                </div>
             </div>
         </div>
     );

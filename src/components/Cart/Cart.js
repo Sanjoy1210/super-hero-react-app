@@ -5,6 +5,7 @@ const Cart = (props) => {
     const {img, name} = props.contributor;
 
     return (
+        // right side cart
         <div className="cart">
             <div className="cart-img">
                 <img src={img} alt={name} />

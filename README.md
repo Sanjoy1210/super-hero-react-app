@@ -8,4 +8,4 @@
 * You can read their blogs or watch videos
 * We can learn programming in a effective way
 
-![programming heros](pHero.png)
+![programming heros](p-Hero.png)

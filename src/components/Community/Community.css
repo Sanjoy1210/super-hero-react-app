@@ -1,3 +1,4 @@
+/* ========= community csss========= */
 .community-container {
     background-color: #0f0e17;
     padding: 30px 10px 0;
@@ -15,6 +16,7 @@
     margin: 5px auto;
 }
 
+/*  ====== contributors css ======= */
 .our-contributors {
     display: flex;
     justify-content: space-between;
@@ -27,6 +29,7 @@
     width: 80%;
 }
 
+/*  ========= committee css ======== */
 .committee {
     width: 18%;
     padding: 10px;

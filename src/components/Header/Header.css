@@ -1,3 +1,4 @@
+/* ====== header css ===== */
 .header {
     background-color: #0f0e17;
 }
@@ -11,10 +12,12 @@
     line-height: 60px;
 }
 
+/* ===== header logo css ===== */
 .logo a {
     color: #ff8906;
 }
 
+/* ===== nav bar css ==== */
 .nav-bar li {
     display: inline-block;
 }

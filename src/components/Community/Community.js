@@ -30,12 +30,15 @@ const Community = () => {
     return (
         <div>
             <div className="community-container">
+                {/* introduction */}
                 <div className="community-intro">
                     <h1>Our Programming Community</h1>
                     <p> We are very fortunate to have a community where there are plenty of resources for learning. And we are eternally grateful to those for whom we received it. May the Bengali community be more prosperous.</p>
                     <h2>Total Contribution: {countTotal(contributors)}</h2>
                 </div>
+
                 <div className="our-contributors">
+                    {/* contributor details */}
                     <div className="contributors">
                         {
                             contributors.map(contributor => <Contributor
@@ -45,6 +48,7 @@ const Community = () => {
                             ></Contributor>)
                         }
                     </div>
+                    {/* cart committee */}
                     <div className="committee">
                         <div className="committee-intro">
                             <h3>Our Committee</h3>
